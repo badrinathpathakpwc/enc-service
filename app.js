@@ -110,7 +110,7 @@ initRoutes = () => {
 
 startServer = () => {
   server.listen(port, function() {
-    console.log("KeyService listening on port " + port + " in " + env + " mode");
+  //  console.log("KeyService listening on port " + port + " in " + env + " mode");
   })
 };
 
