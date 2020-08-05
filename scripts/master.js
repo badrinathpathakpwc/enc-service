@@ -243,7 +243,7 @@ const getKeys = (password, numKeys, numReservedKeys, isAppendMode, masterKey) =>
     master = generateKey(password);
     keys.push(master)
   } else {
-    console.log("Running in append mode. Keys required = " + numKeys + ": Reserved = " + numReservedKeys)
+   // console.log("Running in append mode. Keys required = " + numKeys + ": Reserved = " + numReservedKeys)
   }
 
   //console.log("master is here " + JSON.stringify(master));
